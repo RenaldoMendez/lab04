@@ -12,11 +12,12 @@
         
         <form method="post" action="note">
             <label>Title: </label>
-            <input type="text" name="userTitle">
-            <br><br>
+            <input type="text" name="user_title">
+            <br>
             <label>Content:</label>
-            <textarea name="content" rows="5" cols="50"></textarea>
-            <input type =" submit" value ="Save Note">
+            <textarea name="user_content" rows="5" cols="50"></textarea>
+            <br>
+            <input type ="submit" value ="Save Note">
         </form>
     </body>
 </html>

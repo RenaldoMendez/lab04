@@ -9,18 +9,18 @@ import java.io.Serializable;
  */
 public class Note implements Serializable {
     
-    String title;
-    String content;
+   private String title;
+   private String content;
     
     public Note() {
-        this.title = "";
-        this.content = "";
+        setTitle("");
+        setContent("");
     }
 
 
     public Note(String title, String content) {
-        this.title = title;
-        this.content = content;
+        setTitle(title);
+        setContent(content);
     }
 
     
